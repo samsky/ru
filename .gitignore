@@ -1,0 +1,6 @@
+_site
+.codio
+.sublime-workspace
+.sublime-project
+.sass-cache
+.jekyll-metadata

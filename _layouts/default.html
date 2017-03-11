@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    
+    <!--div class="mail-me">
+      <a class="" href="mailto:me@samsky.ru"><span>me@samsky.ru</span></a>
+    </div-->
+    
+    <div class="page">
+      
+      {% include header.html %}
+
+      {{ content }}
+
+      {% include footer.html %}
+      
+    </div>
+
+  </body>
+
+<!-- Baseliner -->
+<!--script src="/js/baseliner.js">
+</script>
+<script>
+window.onload = function() {
+    baseliner = new Baseliner({ gridHeight: 16, gridColor: 'red', gridOffset: 0 });
+}
+</script-->
+
+{% include yandex_metrika.html %}
+
+</html>

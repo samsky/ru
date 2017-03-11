@@ -1,188 +1,104 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Сэм А.</title>
-    <style type="text/css">
-      body {
-        background-color: #111;
-      }
-      
-      .glitch {
-        position: relative;
-        margin: 0 auto;
-        margin-top: 40vh;
-        color: #fff;
-        font-size: 80px;
-        font-family: "Exo", sans-serif;
-        font-weight: 600;
-        text-align: center;
-        text-transform: uppercase;
-        letter-spacing: 0.01em;
-        -webkit-transform: scale3d(1, 1, 1);
-                transform: scale3d(1, 1, 1);
-      }
-      .glitch::before, .glitch::after {
-        content: attr(data-text);
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        overflow: hidden;
-        background: #111;
-        color: #fff;
-        clip: rect(0, 900px, 0, 0);
-      }
-      .glitch::before {
-        left: 7px;
-        text-shadow: 1px 0 green;
-        -webkit-animation: glitch-effect 3s infinite linear alternate-reverse;
-                animation: glitch-effect 3s infinite linear alternate-reverse;
-      }
-      .glitch::after {
-        left: 3px;
-        text-shadow: -1px 0 red;
-        -webkit-animation: glitch-effect 2s infinite linear alternate-reverse;
-                animation: glitch-effect 2s infinite linear alternate-reverse;
-      }
-      
-      @-webkit-keyframes glitch-effect {
-        0% {
-          clip: rect(1px, 9999px, 94px, 0);
-        }
-        5% {
-          clip: rect(17px, 9999px, 39px, 0);
-        }
-        10% {
-          clip: rect(21px, 9999px, 75px, 0);
-        }
-        15% {
-          clip: rect(51px, 9999px, 73px, 0);
-        }
-        20% {
-          clip: rect(82px, 9999px, 25px, 0);
-        }
-        25% {
-          clip: rect(100px, 9999px, 66px, 0);
-        }
-        30% {
-          clip: rect(32px, 9999px, 6px, 0);
-        }
-        35% {
-          clip: rect(81px, 9999px, 35px, 0);
-        }
-        40% {
-          clip: rect(90px, 9999px, 4px, 0);
-        }
-        45% {
-          clip: rect(79px, 9999px, 20px, 0);
-        }
-        50% {
-          clip: rect(46px, 9999px, 95px, 0);
-        }
-        55% {
-          clip: rect(48px, 9999px, 62px, 0);
-        }
-        60% {
-          clip: rect(33px, 9999px, 10px, 0);
-        }
-        65% {
-          clip: rect(41px, 9999px, 25px, 0);
-        }
-        70% {
-          clip: rect(46px, 9999px, 61px, 0);
-        }
-        75% {
-          clip: rect(62px, 9999px, 58px, 0);
-        }
-        80% {
-          clip: rect(6px, 9999px, 77px, 0);
-        }
-        85% {
-          clip: rect(73px, 9999px, 16px, 0);
-        }
-        90% {
-          clip: rect(85px, 9999px, 25px, 0);
-        }
-        95% {
-          clip: rect(4px, 9999px, 32px, 0);
-        }
-        100% {
-          clip: rect(91px, 9999px, 89px, 0);
-        }
-      }
-      
-      @keyframes glitch-effect {
-        0% {
-          clip: rect(1px, 9999px, 94px, 0);
-        }
-        5% {
-          clip: rect(17px, 9999px, 39px, 0);
-        }
-        10% {
-          clip: rect(21px, 9999px, 75px, 0);
-        }
-        15% {
-          clip: rect(51px, 9999px, 73px, 0);
-        }
-        20% {
-          clip: rect(82px, 9999px, 25px, 0);
-        }
-        25% {
-          clip: rect(100px, 9999px, 66px, 0);
-        }
-        30% {
-          clip: rect(32px, 9999px, 6px, 0);
-        }
-        35% {
-          clip: rect(81px, 9999px, 35px, 0);
-        }
-        40% {
-          clip: rect(90px, 9999px, 4px, 0);
-        }
-        45% {
-          clip: rect(79px, 9999px, 20px, 0);
-        }
-        50% {
-          clip: rect(46px, 9999px, 95px, 0);
-        }
-        55% {
-          clip: rect(48px, 9999px, 62px, 0);
-        }
-        60% {
-          clip: rect(33px, 9999px, 10px, 0);
-        }
-        65% {
-          clip: rect(41px, 9999px, 25px, 0);
-        }
-        70% {
-          clip: rect(46px, 9999px, 61px, 0);
-        }
-        75% {
-          clip: rect(62px, 9999px, 58px, 0);
-        }
-        80% {
-          clip: rect(6px, 9999px, 77px, 0);
-        }
-        85% {
-          clip: rect(73px, 9999px, 16px, 0);
-        }
-        90% {
-          clip: rect(85px, 9999px, 25px, 0);
-        }
-        95% {
-          clip: rect(4px, 9999px, 32px, 0);
-        }
-        100% {
-          clip: rect(91px, 9999px, 89px, 0);
-        }
-      }
-
-
-    </style>
-  </head>
-  <body>
-
-  <h1 class="glitch" data-text="Help ME at SAMSKY dot RU">No. Sorry.</h1>
+---
+layout: default
+title: Блог Сэма
+active: blog
+excerpt: "Блог Сэма, дизайнера и наблюдателя."
+---
+<div class="container content">
   
-  </body>
-</html>
+  <!--div class="row">
+    <div class="col-md-3">
+      <h1 class="who-h1 s">S/</h1>
+    </div>
+    <div class="col-md-1 hidden-xs hidden-sm"></div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="who-h1">{{ page.title }}</h1>
+        </div>
+      </div>
+    </div>
+  </div-->
+  
+  <div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Позже</a> ↑
+  {% else %}
+  
+  {% endif %}
+  </div>
+  
+{% assign post = page %}
+
+{% for post in paginator.posts %}
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h1>
+    </header>
+  
+    <div class="post-content" itemprop="articleBody">
+      {{ post.content }}
+    </div>
+    <footer>
+      <p class="post-meta">
+        <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">    
+        {{ post.date | date: "%-d" }} 
+        {% assign m = post.date | date: "%-m" %}
+        {% case m %}
+          {% when '1' %}января
+          {% when '2' %}февраля
+          {% when '3' %}марта
+          {% when '4' %}апреля
+          {% when '5' %}мая
+          {% when '6' %}июня
+          {% when '7' %}июля
+          {% when '8' %}августа
+          {% when '9' %}сентября
+          {% when '10' %}октября
+          {% when '11' %}ноября
+          {% when '12' %}декабря
+        {% endcase %}
+        {% capture post_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+        {% capture this_year %}{{ site.time | date: '%Y' }}{% endcapture %}
+        {% if post_year < this_year %}
+          {{ post.date | date: "%Y" }}
+        {% endif %}
+        </time>
+        &nbsp;
+        {% if post.tags.size > 0 %}
+
+            {% for post_tag in post.tags %}
+                {% for data_tag in site.data.tags %}
+                    {% if data_tag.slug == post_tag %}
+                        {% assign tag = data_tag %}
+                    {% endif %}
+                {% endfor %}
+                {% if tag %}
+                    {% capture tags_content_temp %}{{ tags_content }}<a href="{{ site.baseurl }}/tag/{{ tag.slug }}/">{{ tag.name }}</a>
+                    {% if forloop.last == false %}&nbsp;{% endif %}
+                    {% endcapture %}
+                    {% assign tags_content = tags_content_temp %}
+                {% endif %}
+            {% endfor %}
+        {% else %}
+            {% assign tags_content = '' %}
+        {% endif %}
+        {{ tags_content }}
+        {% assign tags_content = '' %}
+      </p>
+    </footer>
+  </article>
+{% endfor %}
+
+<div class="pagination earlier">
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Раньше</a> ↓
+  {% else %}
+
+  {% endif %}
+</div>
+
+</div>
