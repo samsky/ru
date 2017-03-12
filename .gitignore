@@ -4,3 +4,4 @@ _site
 .sublime-project
 .sass-cache
 .jekyll-metadata
+.DS_Store
