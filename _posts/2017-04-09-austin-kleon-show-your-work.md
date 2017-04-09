@@ -5,7 +5,7 @@ date: 2017-04-09
 categories: books
 active: blog
 tags: [books]
-excerpt: "описание поста"
+excerpt: "Основные мысли из книги Остина Клеона «Покажи свою работу»"
 ---
 
 <div class="row">
