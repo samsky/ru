@@ -31,4 +31,4 @@ gems:
 paginate: 5
 paginate_path: "/all/:num/"
 
-permalink: "/all/:title.html"
+permalink: "/all/:title/"
