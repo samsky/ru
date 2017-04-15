@@ -16,7 +16,7 @@ excerpt: "Основные мысли из книги Остина Клеона 
 	Ответ прост. Вам нужно показывать свою работу. А как показывать я постарался описать ниже, выделив основные мысли из книги.
 </p>
 <p class="col-md-8">
-	<img src="/images/show-your-work.png" alt="image">
+	<img src="/images/show-your-work.png" alt="Покажи свою работу обложка книги">
 </p>
 <p class="col-md-7">
 	<a href="https://www.ozon.ru/context/detail/id/27596747/">Озон</a> | <a href="https://www.mann-ivanov-ferber.ru/books/pokaji_svoju_rabotu/">МИФ</a>
