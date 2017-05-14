@@ -23,6 +23,10 @@ http://www.minddust.com/post/tags-and-categories-on-github-pages/
 #Bootstrap JSON
 https://gist.github.com/samsky/29582ab067e4c5c4dfd4fbc4752212cas
 
+New Tag:
+	- create new folder inside "tag" folder;
+	- create new tag inside "_data/tags.yml" file;
+
 Write Manuals for:
 - 
 - 
