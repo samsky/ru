@@ -7,10 +7,10 @@
 
 # Site settings
 title: Сэм А.
-email: me@samsky.ru
-description: I design websites and apps. Create motion graphics videos. Read and write. Create stuff on dribbble. Ride on bicycle, travel and take photos.
+email: hi@samabd.com
+description: Сэм Абдуллаев. Делаю дизайн вебсайтов и приложений. Читаю и пишу. Катаюсь на велосипеде и делаю фото.
 baseurl: "" # the subpath of your site, e.g. /blog /en 
-url: "http://blog.samsky.ru/" # the base hostname & protocol for your site
+url: "http://ru.samabd.com/" # the base hostname & protocol for your site
 #twitter_username: #jekyllrb
 #github_username:  #jekyll
 
